@@ -11,5 +11,5 @@ SafeZone Surveillance is an advanced monitoring tool that integrates the YOLOv8 
 - Draw Danger Zones: Create custom danger zones using Bézier curves.
 - Alarm Notifications: Receive audio alerts when an object enters a danger zone.
 - User-Friendly Interface: Simple and intuitive GUI for easy setup and management.
-
+author：QIN ZIMING
 
