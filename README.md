@@ -12,8 +12,4 @@ SafeZone Surveillance is an advanced monitoring tool that integrates the YOLOv8 
 - Alarm Notifications: Receive audio alerts when an object enters a danger zone.
 - User-Friendly Interface: Simple and intuitive GUI for easy setup and management.
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/safezone-surveillance.git
