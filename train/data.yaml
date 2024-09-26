@@ -1,0 +1,6 @@
+# path_to_data.yaml
+train: G:/gra/train/dataset/images/train  # 训练集图像目录
+val: G:/gra/train/dataset/images/val      # 验证集图像目录
+
+nc: 1  # 类别数
+names: ['person']  # 类别名称，替换 'class_name' 为你的实际类别名
