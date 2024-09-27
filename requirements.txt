@@ -7,4 +7,4 @@ ujson==5.8.0
 ultralytics==8.2.35
 ultralytics-thop==2.0.0
 numpy==1.26.1
-tkinter
+tk
