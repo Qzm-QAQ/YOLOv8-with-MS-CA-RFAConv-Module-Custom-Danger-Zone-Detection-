@@ -178,7 +178,7 @@ def train_and_evaluate():
 
     model.train(
         data='data.yaml',
-        epochs=160,  # 周期数越多提升越大 注意不要过拟合
+        epochs=135,  # 周期数越多提升越大 注意不要过拟合
         batch=38,
         imgsz=640,
         save_period=40,  # 每 40 个 epoch 保存一次
