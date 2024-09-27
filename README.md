@@ -2,7 +2,7 @@
 
 SafeZone Surveillance is an advanced monitoring tool that integrates the YOLOv8 object detection model with customizable danger zones. It allows users to set up a real-time monitoring system using screen capture or a remote camera feed.
 ## How to start
-pip install -r requirements.txt
+pip install -r requirements.txt    (python version 3.11.x)
 If lack please find requirementsbase.txt to ensure your missing pack version！！！QWQ（I always use my base env sry）
 ## Features
 
