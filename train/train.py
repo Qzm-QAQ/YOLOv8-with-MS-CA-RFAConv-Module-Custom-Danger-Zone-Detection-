@@ -143,12 +143,12 @@ def train_and_evaluate():
 
     # 开始训练，设置每 5 个 epoch 保存一次模型
     model.train(
-        data='train/data.yaml',
+        data='data.yaml',
         epochs=50, 
         batch=16, 
         imgsz=640, 
         save_period=25,  # 每 25 个 epoch 保存一次
-        project='train/models', 
+        project='models', 
         name='custom_yolo'
     )
 
