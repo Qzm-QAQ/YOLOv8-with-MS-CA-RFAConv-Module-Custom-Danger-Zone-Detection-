@@ -154,12 +154,15 @@ def train_and_evaluate():
 
     # 评估模型
     results = model.val()
+    
+    # 打印 results_dict 来查看可用的评估结果
+    print(results.results_dict)
 
     # 输出评估结果
-    print(f"mAP@0.5: {results['metrics/mAP_0.5']}")
-    print(f"mAP@0.5:0.95: {results['metrics/mAP_0.5:0.95']}")
-    print(f"Precision: {results['metrics/precision']}")
-    print(f"Recall: {results['metrics/recall']}")
+    print(f"mAP@0.5: {results.results_dict['metrics/mAP50(B)']}")
+    print(f"mAP@0.5:0.95: {results.results_dict['metrics/mAP50-95(B)']}")
+    print(f"Precision: {results.results_dict['metrics/precision(B)']}")
+    print(f"Recall: {results.results_dict['metrics/recall(B)']}")
 
 
 # 主函数入口
