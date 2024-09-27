@@ -177,12 +177,12 @@ def train_and_evaluate():
 
 
     model.train(
-        data='G:/gra/train/data.yaml',
+        data='data.yaml',
         epochs=80,  # 周期数越多提升越大
         batch=16,
         imgsz=640,
         save_period=40,  # 每 40 个 epoch 保存一次
-        project='G:/gra/train/models',
+        project='models',
         name='custom_yolo'
     )
 
