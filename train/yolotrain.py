@@ -20,10 +20,10 @@ def train_and_evaluate():
     # 开始训练，设置每 40 个 epoch 保存一次模型
     model.train(
         data='data.yaml',  # 使用上传的数据文件路径
-        epochs=1,  # 训练 80 个 epoch
+        epochs=28,  # 训练 28 个 epoch
         batch=16, 
         imgsz=640, 
-        save_period=1,  # 每 40 个 epoch 保存一次
+        save_period=5,  # 每 5 个 epoch 保存一次
         project='models', 
         name='original_yolo'
     )
