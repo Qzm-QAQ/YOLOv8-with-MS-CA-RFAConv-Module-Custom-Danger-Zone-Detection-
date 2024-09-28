@@ -1,4 +1,4 @@
-# SafeZone Surveillance
+# Improved YOLOv8 with MS-CA-RFAConv Module and Custom Danger Zone Detection
 
 SafeZone Surveillance is an advanced monitoring tool that integrates the YOLOv8 object detection model with customizable danger zones. It allows users to set up a real-time monitoring system using screen capture or a remote camera feed.
 ## How to start
