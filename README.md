@@ -3,7 +3,7 @@
 Improved YOLOv8 with MS- CA-RFAConv
 Module and Custom Danger Zone Detection is an advanced monitoring tool that integrates the YOLOv8 object detection model with customizable danger zones. It allows users to set up a real-time monitoring system using screen capture or a remote camera feed.
 ## How to start
-pip install -r requirements.txt    (python version 3.11.x)
+pip install -r requirements.txt    (python version 3.11.4)
 If lack please find requirementsbase.txt to ensure your missing pack version！！！QWQ（I always use my base env sry）
 !pip install torch==2.1.2+cu118 torchvision==0.15.2+cu118 torchaudio==2.1.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html      
 (IF YOU HAVE CUDA)
