@@ -8,8 +8,13 @@ If lack please find requirementsbase.txt to ensure your missing pack versionÔºÅÔ
 !pip install torch==2.1.2+cu118 torchvision==0.15.2+cu118 torchaudio==2.1.0+cu118 -f https://download.pytorch.org/whl/torch_stable.html      
 (IF YOU HAVE CUDA)
 "!pip install requirementslinux-train.txt"
+
+## Implements
+Run app.py and load your moudule
+
 ## Features
 
+The right side represents the detection performance after adding MS-CA-RFAConv to the YOLO model.
 - Model Selection: Choose your preferred YOLOv8 model for object detection.
 - Customizable Resolution: Set the resolution for the monitoring window.
 - Screen Capture Monitoring: Monitor your screen for object detection.
