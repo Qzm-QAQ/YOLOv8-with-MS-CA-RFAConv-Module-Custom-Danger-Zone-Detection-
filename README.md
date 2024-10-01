@@ -13,7 +13,7 @@ If lack please find requirementsbase.txt to ensure your missing pack version！�
 Run app.py and load your moudule
 
 ## Features
-
+![检测对比](https://raw.githubusercontent.com/Qzm-QAQ/YOLOv8-with-MS-CA-RFAConv-Module-Custom-Danger-Zone-Detection-/refs/heads/main/assets/comparsion.jpg)
 The right side represents the detection performance after adding MS-CA-RFAConv to the YOLO model.
 - Model Selection: Choose your preferred YOLOv8 model for object detection.
 - Customizable Resolution: Set the resolution for the monitoring window.
