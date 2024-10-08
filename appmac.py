@@ -374,7 +374,7 @@ def main_program2():
     def opencv_processing():
         global alarm_playing
 
-        cap = cv2.VideoCapture(1)  # 打开摄像头（索引已更改为1）
+        cap = cv2.VideoCapture(1)  # 打开摄像头（索引已更改为1根据个人电脑而定 intel处理器可能是0 我的m1是 1 ）
 
         if not cap.isOpened():
             logging.error("无法打开摄像头")
